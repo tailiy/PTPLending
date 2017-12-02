@@ -1,0 +1,128 @@
+/*四个东东*/
+.four_data {
+    margin: 3% 1%;
+    font-size: 30px;
+    text-align: center;
+
+}
+.four_data div{
+    background-color: #269abc;
+}
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*第一产品*/
+#platform{
+    width: 100%;
+    padding: 1%;
+    margin: 0px auto;
+    height: 850px;
+    border-bottom: 1px solid gray;
+}
+#platform div{
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+#platform .platform{
+    font-size: 14px;
+    margin: 2%;
+    width: 21%;
+    float: left;
+    height: 350px;
+}
+#platform .platform button{
+    margin-top: 8%;
+}
+/*第二产品*/
+#platform_two{
+    width: 100%;
+    padding: 1%;
+    margin: 0px auto;
+    height: 850px;
+    border-bottom: 1px solid gray;
+}
+#platform_two div{
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+#platform_two .platform{
+    font-size: 14px;
+    margin: 2%;
+    width: 21%;
+    float: left;
+    height: 350px;
+}
+#platform_two .platform button{
+    margin-top: 8%;
+}
+/*第三产品*/
+#platform_three{
+    width: 100%;
+    padding: 1%;
+    margin: 0px auto;
+    height: 850px;
+    border-bottom: 1px solid gray;
+}
+#platform_three div{
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+#platform_three .platform{
+    font-size: 14px;
+    margin: 2%;
+    width: 21%;
+    float: left;
+    height: 350px;
+}
+#platform_three .platform button{
+    margin-top: 8%;
+}
+
+
+/*第四产品*/
+#platform_four{
+    width: 100%;
+    padding: 1%;
+    margin: 0px auto;
+    height: 850px;
+    border-bottom: 1px solid gray;
+}
+#platform_four div{
+    float: left;
+    text-align: center;
+    width: 100%;
+
+}
+#platform_four .platform{
+    font-size: 14px;
+    margin: 2%;
+    width: 21%;
+    float: left;
+    height: 350px;
+}
+#platform_four .platform button{
+    margin-top: 8%;
+}
+/*评论*/
+.command {
+    overflow-y: scroll;
+    width: 100%;
+    height: 500px;
+    padding: 20px 5%;
+    margin-top: 100px;
+}
+.command .media{
+    margin-bottom: 50px;
+}
+p{
+    margin: 0px;
+}

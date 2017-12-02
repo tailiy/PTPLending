@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/index_analyze.css" rel="stylesheet">
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<body>
+<!--轮播图-->
+<div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active"  onclick="window.open('http://www.baidu.com');">
+            <img src="../image/DSC_2565.JPG" alt="First slide" >
+        </div>
+        <div class="item"  onclick="window.open('http://www.baidu.com');">
+            <img src="../image/DSC_2648.JPG" alt="Second slide" >
+        </div>
+        <div class="item"  onclick="window.open('http://www.baidu.com');">
+            <img src="../image/DSC_2652.JPG" alt="Third slide" >
+        </div>
+    </div>
+</div>
+<div class="col-xs-12" style="padding: 5%;">
+
+<!--四个东东-->
+<div class="row four_data">
+    <div class="col-xs-3 col-md-3">
+        <h2>xxx个</h2>
+        <h3>累积平台分析数</h3>
+    </div>
+    <div class="col-xs-3 col-md-3">
+        <h2>xxx个</h2>
+        <h3>成功预测平台数</h3>
+    </div>
+    <div class="col-xs-3 col-md-3">
+        <h2>xxx个</h2>
+        <h3>累计服务用户数</h3>
+    </div>
+    <div class="col-xs-3 col-md-3">
+        <h2>xxx个</h2>
+        <h3>目前在线人数</h3>
+    </div>
+</div>
+
+
+<!--搜索框-->
+<div class="input-group col-xs-11 " style="margin:0px auto; positon:relative">
+    <input type="text" class="form-control .input-lg" placeholder="请输入字段名" />
+            <span class="input-group-btn">
+               <button class="btn btn-info btn-search">搜索平台</button>
+
+            </span>
+</div>
+<!--热门搜索-->
+
+    <div class="col-xs-12" style="text-align: center">
+        <h3>热门搜索：陆金所、点融网、投哪网、爱钱进、宜贷网</h3>
+    </div>
+
+
+    <div class="col-xs-12" style="text-align: left">
+        <h1>网贷资深实战专家介绍</h1>
+    </div>
+
+
+<!-- 图文混排左有图片-->
+<div style="margin-top: 120px">
+    <div class="" style="width:100%;padding: 20px 5%">
+        <div class="media" style="width: 100%">
+            <a href="#" class="media-left">
+                <img src="../image/timg1.jpg" width="200px" height="200px"  class="img-circle"/>
+                <h1 style="text-align: center;">wosshishui</h1>
+            </a>
+            <div class="media-body" style="padding: 3%">
+                <h1  class="media-heading">专家背景介绍：</h1>
+                <h2>javajavajavajavajavajavajavajavajava
+                    javajavajavajavajavajavajavajavajava
+                </h2>
+            </div>
+        </div>
+    </div>
+
+        <p style="border: 0.5px solid black;" ></p>
+
+    <div class="" style="width:100%; padding: 20px 5%">
+        <div class="media" style="width: 100%">
+            <a href="#" class="media-left">
+                <img src="../image/timg1.jpg" width="200px" height="200px"  class="img-circle"  oncontextmenu="return false;" onselectstart="return false;" />
+                <h1 style="text-align: center">wosshishui</h1>
+            </a>
+            <div class="media-body" style="padding: 3%">
+                <h1  class="media-heading">java学院</h1>
+                <h2>javajavajavajavajavajavajavajavajava
+                    javajavajavajavajavajavajavajavajava
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--一-->
+    <div class="col-xs-12" style="text-align: left">
+        <h1>专家成功预测的平台</h1>
+    </div>
+<div id="platform">
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button>免费查看分析报告</button>
+        </div>
+        <div>
+            <span>评估人：橙子哥</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button>免费查看分析报告</button>
+        </div>
+        <div>
+            <span>评估人：橙子哥</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button>免费查看分析报告</button>
+        </div>
+        <div>
+            <span>评估人：橙子哥</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button>免费查看分析报告</button>
+        </div>
+        <div>
+            <span>评估人：橙子哥</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button>免费查看分析报告</button>
+        </div>
+        <div>
+            <span>评估人：橙子哥</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <button>免费查看分析报告</button>
+        </div>
+        <div>
+            <span>评估人：橙子哥</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+        <div>
+            <span>预警时间：跑路前半年</span>
+        </div>
+    </div>
+    <div class="platform">
+       <p style="font-size: 30px;line-height: 200px;height: 200px">查看更多></p>
+    </div>
+</div>
+
+
+<!--二-->
+<div class="col-xs-12" style="text-align: left">
+    <h1>最新平台分析</h1>
+</div>
+<div id="platform_two">
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+</div>
+
+
+
+<!--三-->
+<div class="col-xs-12" style="text-align: left">
+    <h1>热门平台分析</h1>
+</div>
+<div id="platform_three">
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+</div>
+
+<!--四-->
+<div class="col-xs-12" style="text-align: left">
+    <h1>更多平台分析</h1>
+</div>
+<div id="platform_four">
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <div>
+            <img src="../image/timg1.jpg" width="100%" height="50%">
+        </div>
+        <div>
+            <span style="text-decoration: line-through;">$12</span>&nbsp;&nbsp;
+            <button >免费查看分析报告</button>
+        </div>
+        <div>
+            <p >评估人：橙子哥</p>
+        </div>
+        <div>
+            <p>预警时间：跑路前半年</p>
+        </div>
+        <div>
+            <p>预警方法：彩虹八维评估模型</p>
+        </div>
+        <div>
+            <p style="color: yellow">准确率：☆☆☆☆★</p>
+        </div>
+    </div>
+    <div class="platform">
+        <p style="font-size: 30px;line-height: 200px;height: 200px">查看更多></p>
+    </div>
+</div>
+
+
+<div class="col-xs-12" style="text-align: left">
+    <h1>投友们的阅后感</h1>
+</div>
+
+<div class="command">
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+
+
+
+
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+    <div class="media border_bottom">
+        <a class="media-left" href="#">
+            <img class="media-object" src="../image/timg.jpg" width="50px" height="50px"
+                 alt="媒体对象">
+        </a>
+        <div class="media-body">
+            <div class="media-heading">
+                <h4 style="float: left">名字</h4>
+                <h4 style="float: left;margin-left: 20px;">钻石会员</h4>
+            </div>
+            <br/>
+            <p> 这是一些示例文本。这是一些示例文本。</p>
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+            这是一些示例文本。这是一些示例文本。
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script>
+    $('.carousel').carousel()
+</script>
+</html>
